@@ -6,8 +6,7 @@
     <title>Mi primer portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="styles/style.css">
-
-     
+   
   </head>
 
   <body> 
@@ -18,17 +17,15 @@
     <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sobre mi</a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Contacto</a></li>
         </ul>
     </nav>
     
-    <main>
-
-    
+   <section class="section_skils">
       <article>
-        <h2>Article heading</h2>
+        <h2>Sobre mi</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
 
@@ -44,26 +41,59 @@
 
         <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
       </article>
+    </section>
+    <section class="section_projects">
 
-      <!-- the aside content can also be nested within the main content -->
-      <aside>
-        <h2>Related</h2>
 
-        <ul>
-          <li><a href="#">Oh I do like to be beside the seaside</a></li>
-          <li><a href="#">Oh I do like to be beside the sea</a></li>
-          <li><a href="#">Although in the North of England</a></li>
-          <li><a href="#">It never stops raining</a></li>
-          <li><a href="#">Oh well...</a></li>
-        </ul>
-      </aside>
 
-    </main>
+
+    </section>
+       
 
     <!-- And here is our main footer that is used across all the pages of our website -->
 
-    <footer>
-      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    <footer class="footer-grande">
+      
+      <div class="footer-left">
+        <h3>Company<span>logo</span></h3>
+        <p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">Sobre mi</a>
+					·
+					<a href="#">Proyectos</a>
+				
+				</p>
+
+				<p class="footer-company-name">Company Name © 2015</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa-solid fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contact Us</p>
+
+				<form action="#" method="post">
+
+					<input type="text" name="email" placeholder="Email">
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+				</form>
+
+			</div>
+     
+      
+      
     </footer>
 
   </body>

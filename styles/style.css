@@ -1,3 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+*{
+  font-family: Roboto;
+}
+body{
+  background-color:#5c666b;
+}
 header{
   
   width: 100%;
@@ -8,6 +15,9 @@ header{
 header h1{
     width:200px;
     height: auto;
+    font: normal 36px 'Roboto', cursive;
+	  margin: 0 0 10px;
+    color:  #5383d3;
 }
  
 
@@ -41,3 +51,199 @@ nav ul{
  nav ul li a:hover{
     background-color: #111;
 } 
+
+.footer-grande{
+  background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+
+/* Footer left */
+
+.footer-grande .footer-left{
+	float: left;
+}
+/* The company logo */
+
+.footer-grande h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-grande h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-grande .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-grande .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+.footer-grande .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+/* Footer social icons */
+
+.footer-grande .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-grande .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-grande .footer-right{
+	float: right;
+}
+
+.footer-grande .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+/* The contact form */
+
+.footer-grande  form{
+	display: inline-block;
+}
+
+.footer-grande form input,
+.footer-grande  form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-grande  ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-grande  ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-grande  :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-grande  form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-grande  form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-grande form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-grande {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-grande .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-grande form input,
+	.footer-grande form textarea{
+		width: 250px;
+	}
+
+	.footer-grande form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-grande{
+		padding: 30px;
+	}
+
+	.footer-grande .footer-left,
+	.footer-grande .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-grande .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-grande form{
+		margin-top: 30px;
+	}
+
+	.footer-grande form{
+		display: block;
+	}
+
+	.footer-grande form button{
+		float: none;
+	}
+}
